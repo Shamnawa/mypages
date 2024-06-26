@@ -17,7 +17,11 @@
 }
 
 body {
-    font-family: victor mono;
+    
+ 
+    
+    
+    background: var(--gray-15);
    
     
     color: #e7e7e7;
@@ -26,15 +30,47 @@ body {
 }
 
 img {
-    border-radius: 10%;
+    border-radius: 1vw;
     border: 1px solid white;
+    margin-bottom: 1vw;
 }
-p{
+h3 {
+
+    font-family: Times New Roman;font-size: 2vw;
+
+
+    
+    color: #f70e6f;
+}
+
+.para{ 
+   
     height: 100%;
-    width: auto;
+    width: 90vw;
+    display: flex;
+   
+    
+   
+    
+    
+    
+   
+}
+.para p{
+    height: 100%;
+    width: 90vw;
+    position: relative;
+    
+    align-items: center;
+    font-family: Times New Roman;
+    line-height: 1rem;
     margin-top: 2px;
     margin-bottom: 3px;
-    font-size: 2vw;
+    line-height: 2rem;
+    font-size: 1.5vw;
+    font-weight: 200;
+    overflow: hidden;
+
 }
 
 span {
@@ -42,12 +78,6 @@ span {
 }
 
 
-body {
-display: grid;
-place-items: center;
-min-height: 100vh;
-background: var(--gray-12);
-}
 
 ul {
 padding: 0;
@@ -59,7 +89,7 @@ transition: grid-template-columns 0.35s var(--ease-elastic-1);
 }
 
 main {
-width: 66ch;
+width: 88ch;
 }
 
 li {
@@ -141,10 +171,10 @@ ul:is(:focus-within, :hover) {
 /*............................... downlode button .................................................................................*/
 
 .glow-on-hover {
-    width: 220px;
-    height: 50px;
+    width: 22vw;
+    height: 5vw;
     border: none;
-    outline: none;
+    outline: none; 
     color: #fff;
     background: #111;
     cursor: pointer;
@@ -198,6 +228,15 @@ ul:is(:focus-within, :hover) {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+    }
+    .glow-on-hover p{
+        height: 100%;
+        width: 100%;
+        
+        position: relative;
+        font-size: 1.5vw;
+        
+        justify-content: center;
     }
     .button-container {
         display: flex;
