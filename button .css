@@ -19,14 +19,13 @@
 body {
     
  
+    height: 100%;
     
-    
-    background: var(--gray-15);
+    /* min-height: 100vh; */
+    width: auto;
+    /* background-color: #111; */
+    background-color: #000000;
    
-    
-    color: #e7e7e7;
-    margin: 0.1vw;
-    padding: 0.1vw;
 }
 
 img {
@@ -40,16 +39,31 @@ h3 {
 
 
     
-    color: #f70e6f;
+    font-size: 2.5vw;
+    color: #f2d9d9;
+   
+    padding-left: 2vw;
+    padding-right: 5vw;
+    align-items: center;
+    justify-content: center;
+    line-height: 5.8vw;
+    padding-bottom: 10vh;
+     
 }
 
 .para{ 
    
-    height: 100%;
-    width: 90vw;
-    display: flex;
+    font-size: 2.5vw;
+    color: #f2d9d9;
+    background: #000;
    
-    
+    padding-left: 2vw;
+    padding-right: 5vw;
+    align-items: center;
+    justify-content: center;
+    line-height: 5.8vw;
+    padding-bottom: 10vh;
+   
    
     
     
@@ -58,14 +72,16 @@ h3 {
 }
 .para p{
     height: 100%;
-    width: 90vw;
+    width: 50vw;
     position: relative;
+    background-color: #000;
+    
     
     align-items: center;
     font-family: Times New Roman;
     line-height: 1rem;
-    margin-top: 2px;
-    margin-bottom: 3px;
+    padding-left: 2vw;
+    padding-right: 5vw;
     line-height: 2rem;
     font-size: 1.5vw;
     font-weight: 200;
@@ -89,7 +105,8 @@ transition: grid-template-columns 0.35s var(--ease-elastic-1);
 }
 
 main {
-width: 88ch;
+width: 20vw;
+
 }
 
 li {
@@ -110,7 +127,7 @@ z-index: var(--count);
 }
 
 a {
-background: hsl(0 0% 60% / 0.18);
+background: hsla(0, 71%, 11%, 0.18);
 display: inline-block;
 padding: var(--size-2) var(--size-4);
 border-radius: var(--radius-5);
@@ -164,6 +181,7 @@ outline-color: transparent;
 ul:is(:focus-within, :hover) {
 --active: 1;
 }
+
 
 
 
@@ -241,6 +259,8 @@ ul:is(:focus-within, :hover) {
     .button-container {
         display: flex;
         flex-direction: row;
+     
+        
     
         flex-wrap: wrap;
         gap: 10px;
